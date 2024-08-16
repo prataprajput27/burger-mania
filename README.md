@@ -1,4 +1,4 @@
-# burger-mania
+# Burger Mania
 
 A web application to order burgers online. Burger Mania allows users to browse through a variety of burgers, customize their orders, and place them for delivery or pickup.
 
@@ -6,10 +6,9 @@ A web application to order burgers online. Burger Mania allows users to browse t
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
+- [Conclusion](#conclusion)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -28,13 +27,16 @@ A web application to order burgers online. Burger Mania allows users to browse t
 - **Database**: SQL Server
 - **Libraries**: Entity Framework Core, Bootstrap, Fetch API
 
+## Scrrenshots
+
 ![alt text](/utils/landing-page.png)
+Here's a landing page for your great experience.
 
 ![alt text](/utils/register.png)
 Register: Create a new account to start ordering.
 
 ![alt text](/utils/burgers.png)
-Browse Menu: View the list of available burgers.
+Browse Menu: View the list of available burgers, believe me they are all very delicious.
 
 ![alt text](/utils/my-cart.png)
 Your Cart: Your favourite burgers have been added to your cart.
@@ -42,7 +44,7 @@ Your Cart: Your favourite burgers have been added to your cart.
 ![alt text](/utils/my-bill-summary.png)
 Checkout: Review your Bill & Order and place it.
 
-![alt text](/utils/order-placed.png.png)
+![alt text](/utils/order-placed.png)
 Ka-Ching! Order Placed Successfully!
 
 ## Conclusion
@@ -55,4 +57,16 @@ We are continuously working on improving Burger Mania and adding new features to
 
 Thank you for choosing Burger Mania for your online burger ordering needs. Enjoy your delicious burgers!
 
-~Pratapsing Rajput
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
