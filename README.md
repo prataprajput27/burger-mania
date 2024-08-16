@@ -27,7 +27,7 @@ A web application to order burgers online. Burger Mania allows users to browse t
 - **Database**: SQL Server
 - **Libraries**: Entity Framework Core, Bootstrap, Fetch API
 
-## Scrrenshots
+## Screenshots
 
 ![alt text](/utils/landing-page.png)
 Here's a landing page for your great experience.
