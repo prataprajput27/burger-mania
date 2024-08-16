@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35103.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurgerManiaAPI", "BurgerManiaAPI.csproj", "{C96CA255-3167-403E-902A-A2EC3D9826A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerMania.Tests", "..\BurgerMania.Tests\BurgerMania.Tests.csproj", "{7982DE35-34B2-44E7-942B-E219C1FC5B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96CA255-3167-403E-902A-A2EC3D9826A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96CA255-3167-403E-902A-A2EC3D9826A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96CA255-3167-403E-902A-A2EC3D9826A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96CA255-3167-403E-902A-A2EC3D9826A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7982DE35-34B2-44E7-942B-E219C1FC5B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7982DE35-34B2-44E7-942B-E219C1FC5B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7982DE35-34B2-44E7-942B-E219C1FC5B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7982DE35-34B2-44E7-942B-E219C1FC5B18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96D05CE8-34AB-4F2A-BB15-EF2E4FF107B1}
+	EndGlobalSection
+EndGlobal

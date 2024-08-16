@@ -1,0 +1,125 @@
+BOOK - CLR via C Sharp.
+
+VC++, Visual Foxpro (DBMS), Visual Basic (business)
+Foxpro was single user
+COM for compatibility in two languages
+COM -> .NET (Platform Dependent).
+.NET means Network
+Since .Net 5,its cross Platform
+.NET 1.0 - 2002
+.NET 3.0 - 2006 (Workflow Processes, Workflow Foundation - Drag and Drop)
+.NEt 3.5 - 2008 (Entity Framework (ORM))
+.NET 4.0 - (DLR(Dynamic Language Runtime))
+
+.NET Components:-
+1) Language Compilers (csc.exe)
+*** Question ***
+
+2) .NET Runtime (CLR):- CLR understand IL (Immediate Language)
+    a) Just In Time Compiler - Compile what you use.
+        i) Standard
+            - Once compiled dont need to recompile.
+            - Just in Time Compile, just compile what you use and store it.
+            - Doesn't compile what is not used.
+            - By default, on computer standard jit is used.
+        ii) Econo
+            - Again and Again compile the same code.
+            - After the function is executed and is returned, the functions frame is removed from code cache.
+            - By default, on mobile econo is used.
+        iii) Pre Jet (Ngen.exe) Native generator.
+            - Full source gets compiled at once.
+    b) Loaders 
+    c) Code Verifier:- To check the authenticity (.NET gives a way to sign your code)
+    d) CLS :- Common Language Specification. (Rules)
+        i) CTS  
+3) Framework Class Library (BCL) MSCORLIB.dll
+
+.cs for CSharp (csc.exe) -Compilers
+.vb for VB.NET (vbc.exe)
+.jsl for java on .NET Platform. (vjc.exe)
+.cpp for Manage cpp - ()
+
+
+
+.cs      .vb        .jsl       .cpp
+ csc.exe   vbc.exe   vjc.exe
+  \        |          |          /
+   \       |          |         /
+    \      |          |        /
+                MSIL
+                 |
+                 |
+                 |
+                Loader                   ------------ These 4 are in CLR block
+                Code Verifier - Optional ------------ Code managed by CLR is managed COde
+                JIT & GC                 ------------  
+                 |
+                 |
+                 OS   
+
+
+**** Assembly ****
+
+Assembly is collection of many things (objects)
+In Assembly there is PE Header which calls the CLR using command
+JMP COREXEMain or CORDLLMain
+
+Header in Assembly - PE Header
+Body in Assembly
+1) Manifest - Assembly Metadata (Code)
+    a) Name of Assembly
+    b) Version
+    c) Signature - Optional but Mandatory to use
+Same information in reference Assembly also gets stored in Manifest.
+2) Metadata - Type Metadata (Enums, Struct, Class, Interface, Delegates)
+    - Self Contained Assembly. We dont have dependency on Windows Application
+3) CIL
+4) Resources - Optional (Dynamic) For eg:- Multi-languages
+
+
+Assemblies with only header, Manifest and Resources are called Satellite Assemblies.
+IL Code is similar to Assembly.
+
+
+Dotnet calls Code Segment as Code cache. Code cache contains final native code.
+**** Assignment ****
+What are App domains and How do I create my own App domain
+
+
+**** Day 3 ****
+Major Pillars:-
+1) Abstraction:- Minimum expectation from the object.
+2) Encapsulation:- Unintended or Unrestricted access should not be given. Mostly related to access modifiers.
+3) Inheritance:- Capability of an object to derive some of its characteristics:- Identity, state, behavior from other object using a relationship.
+    a) Is A:- Direct relationship. (The marker is a pen) [Bottom Up] {Person <- Employee} Composition
+    b) Has A:- Direct ownership. (The marker has ink and pen also has ink) [Top Down]. {Person -> Car} Aggregation
+4) Polymorphism:- Different behavior of that object only based on the context.
+Class  A {
+    A(){
+        
+    }
+
+    A(num1){
+
+    }
+}
+
+A a1 = new A();
+A a2 = new A(1);
+
+Minor Pillars:-
+1) Modularity:- Modular code instead of Monolithic.
+2) Persistance:- Saves that state (Hibernate in Windows).
+3) Events:- Actions performed based on the events triggered.
+4) Strong Typing:- Compile Time.
+5) Concurrency:- Parallel Processing
+6) Everything is an Object.
+
+
+*****************************************************************
+System.Object
+    |
+    System.Type
+    /            \
+   /              \
+System.ValueType  System.ReferenceType
