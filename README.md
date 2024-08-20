@@ -2,6 +2,11 @@
 
 A web application to order burgers online. Burger Mania allows users to browse through a variety of burgers, customize their orders, and place them for delivery or pickup.
 
+# Me ~ Pratapsing Bhimsing Rajput
+
+![alt text](/utils/PratapsingRajput.jpg)
+This is me, just for your reference.
+
 ## Table of Contents
 
 - [Features](#features)
